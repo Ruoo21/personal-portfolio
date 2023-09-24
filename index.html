@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script>
+      function showAlert() {
+        alert(
+          "This website does not have its own dark mode (yet), but I suggest you use this amazing extension: https://darkreader.org/"
+        );
+      }
+    </script>
+    <title>Ruddy's Portfolio</title>
+  </head>
+  <body>
+    <ul>
+      <li><a href="index.html" style="text-decoration: none">Home</a></li>
+      <li>
+        <a
+          href="https://github.com/Ruoo21/"
+          style="text-decoration: none"
+          target="_blank"
+          >Github</a
+        >
+      </li>
+      <li><a href="about.html" style="text-decoration: none">About</a></li>
+      <li>
+        <button>
+          <img
+            src="./images/moon.svg"
+            onclick="showAlert()"
+            alt="Image of a small moon"
+          />
+        </button>
+      </li>
+    </ul>
+
+    <h1>Hello! My name is Ruddy!</h1>
+    <span>Welcome to my Portfolio!</span>
+    <h2>Favourite Pieces of Media -></h2>
+    <div
+      class="media"
+      style="display: flex; justify-content: flex-end; flex-wrap: wrap"
+    >
+      <img src="./images/lis.jpg" alt="Image of Life Is Strange" />
+      <img
+        src="./images/gone-girl.jpg"
+        style="width: 200px"
+        alt="Picture of the best movie ever (Gone Girl)"
+      />
+      <img
+        src="./images/Hamilton-poster.jpg"
+        style="width: 200px"
+        alt="Movie poster of Hamilton"
+      />
+      <img
+        src="./images/baby-driver.jpg"
+        style="width: 200px"
+        alt="Movie poster of Baby Driver"
+      />
+    </div>
+    <div class="footer">
+      <p>
+        SVGs from
+        <a target="_blank" href="https://tablericons.com/">Tabler Icons</a>.
+        Special thanks to
+        <a target="_blank" href="https://darkreader.org/">Dark Reader</a>!
+      </p>
+    </div>
+  </body>
+</html>
